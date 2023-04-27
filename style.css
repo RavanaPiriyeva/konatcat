@@ -1,0 +1,355 @@
+* {
+
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/*--------Navbar-----------------*/
+
+/*nav-top-part*/
+#nav-top-part .top-part-left li {
+    list-style: none;
+    padding: 10px 25px 10px 0;
+}
+
+#nav-top-part .top-part-left a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 3;
+    color: #777;
+    transition: .5s;
+}
+
+#nav-top-part .top-part-left a:hover {
+    color: #ff003c;
+}
+
+#nav-top-part .top-part-right a:hover svg path {
+    fill: #ff003c;
+}
+
+#nav-top-part .top-part-right .icon a {
+    color: #ff003c;
+}
+
+#nav-top-part .top-part-right li .heart {
+    margin-right: 20px;
+
+}
+
+#nav-top-part .top-part-right li .heart,
+#nav-top-part .top-part-right li, .scale {
+    position: relative;
+}
+
+#nav-top-part .top-part-right li .heart div,
+#nav-top-part .top-part-right li .scale div {
+    position: absolute;
+    top: -5px;
+    right: -8px;
+    font-size: 12px;
+}
+
+#nav-top-part .top-part-right li.month a {
+    color: #099D0D;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#nav-top-part .top-part-right li.call {
+    font-size: 12px;
+}
+
+#nav-top-part .top-part-right li {
+    list-style: none;
+    line-height: 3;
+    padding: 0 0 0 20px;
+}
+
+#nav-top-part .top-part-right a {
+    text-decoration: none;
+    line-height: 3;
+    font-weight: 500;
+    color: #777;
+
+}
+
+/*nav-bottom-part*/
+#nav-bottom-part .bar {
+    font-size: 30px;
+}
+
+#nav-bottom-part .logo a:hover svg path,
+#nav-bottom-part .menu:hover svg path,
+#nav-bottom-part .menu:hover p {
+    color: #ff003c;
+    fill: #ff003c;
+    cursor: pointer;
+}
+
+#nav-bottom-part .menu p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #282828;
+}
+
+#nav-bottom-part .serch input {
+    width: 90%;
+    outline: 1px solid #d8d8d8;
+    border-radius: 21px 0 0 21px;
+    padding: 11px 2px 11px 15px;
+    height: 45px;
+    font-size: 14px;
+    border: none;
+    display: inline-block;
+
+}
+
+#nav-bottom-part .serch button {
+    width: 10%;
+    outline: 1px solid #d8d8d8;
+    border-radius: 0 21px 21px 0;
+    padding: 11px 2px 11px 2px;
+    height: 45px;
+    font-size: 14px;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: -4.5px;
+
+}
+
+#nav-bottom-part .serch input:focus {
+    outline: 1px solid #d8d8d8;
+}
+
+#nav-bottom-part .info li {
+    list-style: none;
+    padding-left: 20px;
+
+
+}
+
+#nav-bottom-part .info li span {
+    white-space: nowrap;
+}
+
+#nav-bottom-part .info li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#nav-bottom-part .info li.basket {
+    position: relative;
+}
+
+#nav-bottom-part .info li.basket .count {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    background-color: white;
+    font-size: 10px;
+    color: #ff003c;
+    position: absolute;
+    width: 10px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+#nav-bottom-part .info li:hover svg path {
+    fill: #ff003c;
+
+}
+
+@media only screen and (max-width: 992px) {
+    #nav-bottom-part .info li.basket .count {
+        top: 0;
+        right: 5px;
+    }
+
+    #nav-bottom-part .logo svg {
+        width: 110px;
+    }
+}
+
+/*--------Sidebar----------------*/
+
+#hero .sidebar-body {
+
+    border: 2px solid #00000014;
+}
+
+#hero .sidebar-body img {
+    width: 25px;
+}
+
+#hero .sidebar-body ul {
+    margin: 0;
+    padding: 0;
+}
+
+#hero .sidebar-body li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+#hero .sidebar-body li:hover {
+    background-color: #eeeff2;
+    cursor: pointer;
+}
+
+#hero .sidebar-body li p {
+    margin: 0 0 0 10px;
+    width: 80%;
+    color: #545353;
+    letter-spacing: 0.3;
+    font-size: 15px;
+    border-bottom: 1px solid #00000014;
+    padding: 15px 0;
+
+}
+
+
+#hero .hero-first-slider {
+    border: 2px solid #00000014;
+}
+
+#hero .about {
+    padding: 20px;
+    border: 2px solid #00000014;
+    margin-top: 10px;
+}
+
+#hero .about .about-desc {
+    color: #444;
+    font-size: 11px;
+}
+
+#hero .about .about-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: #253444;
+    margin-bottom: 0;
+    margin-top: 10px;
+
+}
+
+#hero .hero-right-left {
+    padding: 0 10px;
+
+}
+
+#hero .hero-right-left-body {
+    border: 2px solid #00000014;
+
+}
+
+#hero .hero-right-left .hero-right-left-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #282828;
+    padding: 20px 0;
+
+}
+
+#hero .hero-right-left .time li {
+    list-style: none;
+    text-align: center;
+    padding: 5px 20px;
+    background-color: #fff;
+    font-size: 10px;
+    color: #323232;
+    position: relative;
+}
+
+#hero .hero-right-left .time li::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 20px;
+    background-color: #323232c9;
+
+}
+
+#hero .hero-right-left .time li:last-child::after {
+    background-color: transparent;
+}
+
+#hero .hero-right-left .time li p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#hero .hero-second-slider {
+    padding: 20px;
+   height: 55vh;
+}
+
+#hero .hero-second-slider img {
+    width: 70%;
+}
+
+#hero .hero-second-slider i {
+    font-size: 30px;
+    color: rgba(119, 119, 119, 0.897);
+}
+
+#hero .hero-second-slider .slider-text {
+    margin: 10px auto;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #282828;
+    max-width: 80%;
+    height: 40px;
+    line-height: 20px;
+}
+
+#hero .hero-second-slider .price {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 0;
+    border-top: 1px solid #f0f1f2;
+    border-bottom: 1px solid #f0f1f2;
+}
+
+#hero .hero-second-slider .price button {
+
+    background-color: #9c3;
+    border-radius: 4px;
+   border: none;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+    transition: all 0.5s;
+    width: 95px;
+    height: 30px;
+    font-size: 14px;
+}
+
+#hero .hero-second-slider button {
+    height: 15px;
+    width: 15px;
+    background-color: #444;
+    border-radius: 50%;
+
+}
+
+#hero .hero-second-slider .circles {
+    margin-bottom: -50px;
+}
